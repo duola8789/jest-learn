@@ -79,6 +79,6 @@ describe('helper test', () => {
     expect(result).not.toContain(22)
   });
 
-  const mockFn = jest.fn().mockImplementation(val =>  val +100)
+  const mockFn = jest.fn().mockImplementation(val =>  val +100);
   console.log(mockFn(100))
 });
