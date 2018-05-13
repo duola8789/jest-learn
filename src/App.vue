@@ -7,7 +7,8 @@
 <script>
   // import Page from '@/components/Test1'
   // import Page from '@/components/Test2'
-  import Page from '@/components/Test3'
+  // import Page from '@/components/Test3'
+  import Page from '@/components/Test4/Test4'
 
   export default {
     name: 'App',

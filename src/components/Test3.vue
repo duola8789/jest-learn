@@ -26,9 +26,9 @@
         return axios.get(URL).then(result => {
           if (result && result.data) {
             this.answer = result.data.answer;
-            this.src = result.data.image
+            this.src = result.data.image;
+            return result
           }
-
         }).catch(e => {})
       }
     }
