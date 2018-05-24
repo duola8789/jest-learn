@@ -7,8 +7,7 @@ import MyButton from '@/components/MyButton';
 
 
 describe('Test for Test1 Component', () => {
-  let wrapper,
-    vm;
+  let wrapper;
 
   beforeEach(() => {
     wrapper = mount(Test1, {
@@ -22,7 +21,7 @@ describe('Test for Test1 Component', () => {
     wrapper.destroy()
   });
 
-
+  // ------------DOM节点和样式-------
   it('is a Test1 component', () => {
     // 使用Vue组件选择器
     expect(wrapper.is(Test1)).toBe(true);
@@ -54,6 +53,7 @@ describe('Test for Test1 Component', () => {
     expect(wrapper.find(MyButton).hasStyle('padding-top', '10px')).toBeTruthy()
   });
 
+  // ------------测试Props-------
   // props：返回 Wrapper vm 的 props 对象。
   it('接收到了bye作为Props', () => {
     expect(wrapper.props().messages).toContain('bye');

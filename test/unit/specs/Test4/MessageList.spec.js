@@ -48,7 +48,7 @@ describe('Test for MessageList of Test4 Component', () => {
 
   //  组件中应该通过slots插入了Message，并且传入的文本是test
   it('Messages are inserted in a ul.list-messages element', () => {
-    const list = wrapper.find('ul.list-messages').find('li');
+    const list = wrapper.find('ul.list-messages');
     expect(wrapper.find(Message).isVueInstance()).toBeTruthy();
     expect(list.contains('li')).toBeTruthy();
     expect(list.find('li').text()).toBe('test')

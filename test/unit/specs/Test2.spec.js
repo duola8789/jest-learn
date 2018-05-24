@@ -46,10 +46,9 @@ describe('Test for Test2 Component', () => {
       spy.mockClear()
     });
 
-    // it('is not called if value is empty (trimmed)', () => {
-    // });
-    //
-    // it('is not called if values are the same', () => {
+    // it('is called with the different values', () => {
+    //   wrapper.vm.inputValue = 'ok';
+    //   expect(spy).toBeCalled();
     // });
 
     it('is called with the different values', (done) => {
