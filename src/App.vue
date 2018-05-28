@@ -10,7 +10,8 @@
   // import Page from '@/components/Test3'
   // import Page from '@/components/Test4/Test4'
   // import Page from '@/components/Test5/Test5'
-  import Page from '@/components/Test6'
+  // import Page from '@/components/Test6'
+  import Page from '@/components/Test7'
 
   export default {
     name: 'App',

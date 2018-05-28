@@ -8,7 +8,7 @@ import Test6 from '@/components/Test6';
 import _ from 'lodash';
 
 jest.mock('lodash', () => ({
-  debounce: jest.fn((fn => fn))
+  debounce: jest.fn(fn => fn)
 }));
 
 describe('Test for Test6 Component', () => {
